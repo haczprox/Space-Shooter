@@ -380,7 +380,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503482719}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.91, y: 3.86, z: -1.86}
+  m_LocalPosition: {x: 0.91, y: 4.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -398,4 +398,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d303beafb12514469b72062d1a314b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMoveSpeed: 5
+  playerMoveSpeed: 7
+  laserPrefab: {fileID: 6779131468668508924, guid: 94424693cdc5e2e4a86db55a3ae71622,
+    type: 3}
