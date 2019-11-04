@@ -23,7 +23,7 @@ public class Laser : MonoBehaviour
 
     private void MoveOrDestroy()
     {
-        if (transform.position.y >= 4.9f) Destroy(gameObject);
+        if (transform.position.y >= 6f) Destroy(gameObject);
         
         gameObject.transform.Translate(Time.deltaTime * laserMoveSpeed * Vector3.up);
     }
